@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Utils {
-    public static BufferedImage loadImage(String url) {
+    public static BufferedImage loadImage(String url){
         try {
             return ImageIO.read(new File(url));
         } catch (IOException e) {
